@@ -9,4 +9,5 @@ def test():
 
 
 if __name__ == '__main__':
+    print('切换分支到dev')
     app.run()
