@@ -1,3 +1,7 @@
+我是在python3.7的环境下运行的项目，首先安装依赖库
+
+`pip install -r requirements.txt`
+
 # 信用卡识别
 所需要的arguments
 ```python
@@ -9,6 +13,8 @@ ap.add_argument("-t", "--template", required=True,
 
 运行示例代码
 `python orc_template_match.py -i images/credit_card_01.png -t ocr_a_reference.png`
+
+
 
 项目采用模板匹配的方法来做识别，运行实例结果如下
 
