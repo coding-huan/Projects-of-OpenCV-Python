@@ -1,4 +1,2 @@
-# test
-这是一个测试项目
-
-我打算写一个flask程序
+# OpenCV-python项目
+这里包含了一系列OpenCV相关的项目
