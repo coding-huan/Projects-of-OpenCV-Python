@@ -11,3 +11,7 @@ ap.add_argument("-t", "--template", required=True,
 `python orc_template_match.py -i images/credit_card_01.png -t ocr_a_reference.png`
 
 项目采用模板匹配的方法来做识别，运行实例结果如下
+
+![running picture](screenshot.png)
+
+**注意图片路径中不能含中文**
