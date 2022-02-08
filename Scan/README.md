@@ -17,7 +17,7 @@ ap.add_argument("-i", "--image", required=True,
 
 运行后查看scan.jpg，为经过OCR扫描后生成的图片
 
-![示例](scan.jpg)
+<img src="scan.jpg" style="height:800px" />
 
 接着运行baidu-orc.py，来识别其中的内容（[百度OCR文档](https://ai.baidu.com/ai-doc/OCR/1k3h7y3db)）
 
