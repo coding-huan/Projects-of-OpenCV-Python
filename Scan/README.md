@@ -23,6 +23,8 @@ ap.add_argument("-i", "--image", required=True,
 
 想要使用baidu-ocr接口需要申请，使用POST请求访问对应的服务器地址即可，返回值是json数据，我们使用如下代码读取
 
+>你需要使用之前扫描得到的图片，而不是“身份证.jpg”
+
 ```python
 with open('身份证.jpg', 'rb') as f:
     image = f.read()
